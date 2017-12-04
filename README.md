@@ -9,7 +9,7 @@ let gettingEngines = [];
 
 for (const url of urls) {
     gettingEngines.push(
-        fetch(url).then(res => res.text()).then(parseOpenSearchXML).then()
+        fetch(url).then(res => res.text()).then(parseOpenSearchXML)
     );
 }
 ```
